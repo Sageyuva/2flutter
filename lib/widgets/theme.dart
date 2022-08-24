@@ -11,7 +11,7 @@ class MyTheme {
         centerTitle: true,
         color: Colors.white,
         elevation: 0.0,
-        iconTheme: IconThemeData(color: Colors.black),
+        iconTheme: IconThemeData(color: Colors.green),
         titleTextStyle: TextStyle(
           fontStyle: GoogleFonts.lato().fontStyle,
           fontSize: 20,

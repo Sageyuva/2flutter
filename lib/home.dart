@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/widgets/theme.dart';
+import 'package:flutter_application_2/pictures/uploads.dart';
+import 'package:flutter_application_2/widgets/item_widgets.dart';
 import 'package:flutter_application_2/widgets/drawer.dart';
 
 class MyHome extends StatelessWidget {
@@ -7,11 +8,14 @@ class MyHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
       appBar: AppBar(
         title: Text("Raizel"),
       ),
-      body: Container(),
+      body: Container(
+        child: ListView(),
+      ),
       drawer: const MyDrawer(),
     );
   }
