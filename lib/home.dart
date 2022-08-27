@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/pictures/uploads.dart';
+import 'package:flutter_application_2/widgets/body.dart';
 import 'package:flutter_application_2/widgets/item_widgets.dart';
 import 'package:flutter_application_2/widgets/drawer.dart';
 
@@ -13,9 +14,7 @@ class MyHome extends StatelessWidget {
       appBar: AppBar(
         title: Text("Raizel"),
       ),
-      body: Container(
-        child: ListView(),
-      ),
+      body:HomeBody() ,
       drawer: const MyDrawer(),
     );
   }
