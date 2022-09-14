@@ -5,18 +5,18 @@ import 'package:google_fonts/google_fonts.dart';
 
 class MyTheme {
   static ThemeData lightTheme(BuildContext context) => ThemeData(
-      primarySwatch: Colors.green,
+      primarySwatch: Colors.deepPurple,
       fontFamily: GoogleFonts.lato().fontFamily,
       appBarTheme: AppBarTheme(
         centerTitle: true,
         color: Colors.white,
         elevation: 0.0,
-        iconTheme: IconThemeData(color: Colors.green),
+        iconTheme: IconThemeData(color: Colors.deepPurple),
         titleTextStyle: TextStyle(
           fontStyle: GoogleFonts.lato().fontStyle,
           fontSize: 20,
           fontWeight: FontWeight.bold,
-          color: Colors.green
+          color: Colors.purple
         ),
       ));
 

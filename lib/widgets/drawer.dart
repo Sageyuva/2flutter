@@ -14,13 +14,13 @@ const img="https://i.pinimg.com/474x/92/ec/b8/92ecb833159668dae82c4a8b7cbab3ec.j
       child: Container(
         padding: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
         
-       color: Colors.lightGreen,
+       color: Colors.deepPurple,
         child: ListView(
           children: [
             
             UserAccountsDrawerHeader(
               decoration: BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(10)),
-              color: Colors.green
+              color: Colors.purple
                ),
               currentAccountPicture: CircleAvatar(
                 backgroundImage: NetworkImage(img),

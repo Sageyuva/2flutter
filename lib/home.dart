@@ -12,10 +12,11 @@ class MyHome extends StatelessWidget {
     
     return Scaffold(
       appBar: AppBar(
+        elevation: 10.0,
         title: Text("Raizel"),
       ),
       body:HomeBody() ,
-      drawer: const MyDrawer(),
+      // drawer: const MyDrawer(),
     );
   }
 }
