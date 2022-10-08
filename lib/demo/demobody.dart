@@ -23,14 +23,47 @@ trailing: Icon(CupertinoIcons.arrow_right),
       // alignment: Alignment.center,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        color: Colors.red,
+        color: Colors.white,
 
       ),
-      child: Text("Hello"),
-      child: Text("hello")
+      height: 50,
+      width: 50,
+      // child: Center(child: Icon(CupertinoIcons.heart),),
+      // child: Text("hello")
       
   
-    )
+    ),
+    Container(
+      decoration: BoxDecoration(
+        color: Colors.yellow,
+        borderRadius: BorderRadius.circular(30),
+
+      ),
+      height: 50,
+      width: 50,
+      child: Center(
+        child: Icon(CupertinoIcons.home),
+      )
+
+    ),
+    Container(
+      decoration: BoxDecoration(
+        color: Colors.red,
+borderRadius: BorderRadius.circular(50)
+      ),
+      height: 50,
+      width: 50,
+      child: Center(child: Icon(CupertinoIcons.heart_fill)),
+    ),
+    TextFormField(
+      obscureText: true,
+      decoration: InputDecoration(
+       
+        hintText: "Enter password",
+        labelText: "password"
+        
+      ),
+    ),
   ],
 ),
     );
